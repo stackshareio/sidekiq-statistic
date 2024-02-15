@@ -3,9 +3,12 @@
 ## Tech Stack
 stackshareio/sidekiq-statistic is built on the following main stack:
 
-- [Ruby](https://www.ruby-lang.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- [Tilt](https://tilt.build/) – Container Tools
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Rake](https://github.com/ruby/rake) – Task Management
 
 Full tech stack [here](/techstack.md)
 
@@ -15,9 +18,12 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 stackshareio/sidekiq-statistic is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/10222/logo-wordmark-square.png' alt='Tilt'/> [Tilt](https://tilt.build/) – Container Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/' alt='Rake'/> [Rake](https://github.com/ruby/rake) – Task Management
 
 Full tech stack [here](/techstack.md)
 
@@ -28,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [stackshareio/sidekiq-statistic](https://github.com/stackshareio/sidekiq-statistic)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|15<br/>Tools used|01/09/24 <br/>Report generated|
+|12<br/>Tools used|02/15/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -61,12 +67,20 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (5)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
   <br>
   <sub><a href="http://git-scm.com/">Git</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'>
+  <br>
+  <sub><a href="http://mochajs.org/">Mocha</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -80,6 +94,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10222/logo-wordmark-square.png' alt='Tilt'>
+  <br>
+  <sub><a href="https://tilt.build/">Tilt</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'>
   <br>
   <sub><a href="http://travis-ci.com/">Travis CI</a></sub>
@@ -87,10 +109,15 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png' alt='npm'>
+</tr>
+</table>
+
+## Other (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/' alt='Rake'>
   <br>
-  <sub><a href="https://www.npmjs.com/">npm</a></sub>
+  <sub><a href="https://github.com/ruby/rake">Rake</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -99,20 +126,15 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (8)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (3)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (8)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (3)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[minitest](https://rubygems.org/minitest)|v5.0|05/28/15|Anton Davydov |MIT|N/A|
-|[minitest-utils](https://rubygems.org/minitest-utils)|N/A|05/28/15|Anton Davydov |MIT|N/A|
-|[mocha](https://rubygems.org/mocha)|N/A|05/28/15|Anton Davydov |MIT,BSD-2-Clause|N/A|
 |[rack](https://rubygems.org/rack)|v1.6.4|09/29/16|Patrick Roby |MIT|[CVE-2022-30123](https://github.com/advisories/GHSA-wq4h-7r42-5hrr) (Critical)<br/>[CVE-2023-27530](https://github.com/advisories/GHSA-3h57-hmj3-gj3p) (High)<br/>[CVE-2020-8184](https://github.com/advisories/GHSA-j6w9-fv6q-3q52) (High)<br/>[CVE-2022-44570](https://github.com/advisories/GHSA-65f5-mfpf-vfhj) (High)<br/>[CVE-2022-30122](https://github.com/advisories/GHSA-hxqx-xwvh-44m2) (High)<br/>[CVE-2020-8161](https://github.com/advisories/GHSA-5f9h-9pjv-v6j7) (High)<br/>[CVE-2019-16782](https://github.com/advisories/GHSA-hrqr-hxpp-chr3) (Moderate)<br/>[CVE-2018-16471](https://github.com/advisories/GHSA-5r2p-j47h-mhpg) (Moderate)|
 |[rack-test](https://rubygems.org/rack-test)|N/A|09/29/16|Patrick Roby |MIT|N/A|
-|[rake](https://rubygems.org/rake)|N/A|05/28/15|Anton Davydov |MIT|N/A|
-|[sidekiq](https://rubygems.org/sidekiq)|v5.0|05/03/17|Damjan Znidarsic |LGPL-3.0|[CVE-2022-23837](https://github.com/advisories/GHSA-jrfj-98qg-qjgv) (High)<br/>[CVE-2023-26141](https://github.com/advisories/GHSA-3qc2-v3hp-6cv8) (Moderate)<br/>[CVE-2021-30151](https://github.com/advisories/GHSA-grh7-935j-hg6w) (Moderate)|
-|[tilt](https://rubygems.org/tilt)|v2.0|09/14/16|Patrick Roby |MIT|N/A|
 
 <br/>
 <div align='center'>
