@@ -1,12 +1,12 @@
 repo_name: stackshareio/sidekiq-statistic
-report_id: 148cde91dfe8b252d5dd96bd71e999ea
+report_id: 215be6e041fcefa7d79b4d8b28a90a2c
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-16T00:20:54+00:00'
+timestamp: '2024-03-01T20:36:03+00:00'
 requested_by: jeromedalbert
 provider: github
 branch: master
-detected_tools_count: 12
+detected_tools_count: 15
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -50,20 +50,6 @@ tools:
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source_url: https://github.com/stackshareio/sidekiq-statistic
   detection_source: Repo Metadata
-- name: Mocha
-  description: Simple, flexible, fun javascript test framework for node.js &amp; the
-    browser
-  website_url: http://mochajs.org/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Javascript Testing Framework
-  image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
-  detection_source: sidekiq-statistic.gemspec
-  last_updated_by: Anton Davydov
-  last_updated_on: 2015-05-28 09:31:15.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -72,19 +58,6 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
-  detection_source: sidekiq-statistic.gemspec
-  last_updated_by: Anton Davydov
-  last_updated_on: 2015-03-03 20:40:47.000000000 Z
-- name: Tilt
-  description: Local Kubernetes development with no stress
-  website_url: https://tilt.build/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Container Tools
-  image_url: https://img.stackshare.io/service/10222/logo-wordmark-square.png
   detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
   detection_source: sidekiq-statistic.gemspec
   last_updated_by: Anton Davydov
@@ -102,15 +75,14 @@ tools:
   detection_source: ".travis.yml"
   last_updated_by: Anton Davydov
   last_updated_on: 2015-03-03 20:40:47.000000000 Z
-- name: Rake
-  description: A software task management and build automation tool
-  website_url: https://github.com/ruby/rake
-  license: MIT
-  open_source: true
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
   hosted_saas: false
-  category: Application Utilities
-  sub_category: Task Management
-  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
   detection_source: sidekiq-statistic.gemspec
   last_updated_by: Anton Davydov
@@ -126,6 +98,32 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
+  detection_source: sidekiq-statistic.gemspec
+  last_updated_by: Anton Davydov
+  last_updated_on: 2015-05-28 09:31:15.000000000 Z
+- name: minitest-utils
+  description: Some utilities for your Minitest day-to-day usage
+  package_url: https://rubygems.org/minitest-utils
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19376/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
+  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
+  detection_source: sidekiq-statistic.gemspec
+  last_updated_by: Anton Davydov
+  last_updated_on: 2015-05-28 09:31:15.000000000 Z
+- name: mocha
+  description: Mocking and stubbing library with JMock/SchMock syntax
+  package_url: https://rubygems.org/mocha
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
   detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
   detection_source: sidekiq-statistic.gemspec
   last_updated_by: Anton Davydov
@@ -195,6 +193,24 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.6.11
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.0.9.4
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
 - name: rack-test
   description: Rack::Test is a small, simple testing API for Rack apps
   package_url: https://rubygems.org/rack-test
@@ -208,3 +224,63 @@ tools:
   detection_source: sidekiq-statistic.gemspec
   last_updated_by: Patrick Roby
   last_updated_on: 2016-09-29 00:30:16.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
+  detection_source: sidekiq-statistic.gemspec
+  last_updated_by: Anton Davydov
+  last_updated_on: 2015-05-28 09:31:15.000000000 Z
+- name: sidekiq
+  description: Simple, efficient background processing for Ruby
+  package_url: https://rubygems.org/sidekiq
+  version: '5.0'
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18948/default_611c0295e32d1242505cbb0d769e587d60851eda.png
+  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
+  detection_source: sidekiq-statistic.gemspec
+  last_updated_by: Damjan Znidarsic
+  last_updated_on: 2017-05-03 10:51:40.000000000 Z
+  vulnerabilities:
+  - name: Denial of service in sidekiq
+    cve_id: CVE-2022-23837
+    cve_url: https://github.com/advisories/GHSA-jrfj-98qg-qjgv
+    detected_date: Jan 28
+    severity: high
+    first_patched: 5.2.10
+  - name: sidekiq Denial of Service vulnerability
+    cve_id: CVE-2023-26141
+    cve_url: https://github.com/advisories/GHSA-3qc2-v3hp-6cv8
+    detected_date: Sep 15
+    severity: moderate
+    first_patched: 6.5.10
+  - name: Cross-site Scripting in Sidekiq
+    cve_id: CVE-2021-30151
+    cve_url: https://github.com/advisories/GHSA-grh7-935j-hg6w
+    detected_date: Oct 7
+    severity: moderate
+    first_patched: 5.2.0
+- name: tilt
+  description: Generic interface to multiple Ruby template engines
+  package_url: https://rubygems.org/tilt
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18917/default_aa081534cc9e2d100412a763ab69743f22c56ceb.png
+  detection_source_url: https://github.com/stackshareio/sidekiq-statistic/blob/master/sidekiq-statistic.gemspec
+  detection_source: sidekiq-statistic.gemspec
+  last_updated_by: Patrick Roby
+  last_updated_on: 2016-09-14 17:43:12.000000000 Z
